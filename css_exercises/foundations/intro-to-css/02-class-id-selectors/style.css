@@ -1,0 +1,18 @@
+/* Add CSS Styling */
+.odd_number{
+    background-color: #ffb6c1;
+    font-family: verdana, "DejaVu sans", sans-serif ;
+}
+.odd_number.cooler{
+    font-size: 24px;
+    font-weight: 700;
+}
+#firstid{
+    color: #0000ff;
+    font-size: 36px;
+}
+#secondid{
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
