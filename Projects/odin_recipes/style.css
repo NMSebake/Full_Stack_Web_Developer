@@ -1,0 +1,40 @@
+.heading{
+    background-color: lightsalmon;
+    color: black;
+    text-align: center;
+    padding: 20px;
+ 
+}
+.recipes{
+    columns: black;
+}
+
+#C_header{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+}
+
+#MC_header{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+}
+
+#C_header{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+}
+
+#TP_header{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+}
+
+#S_header{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+}
