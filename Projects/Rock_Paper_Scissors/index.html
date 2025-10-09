@@ -9,47 +9,20 @@
 
   <script>
 
-    /////////////// Humans Choice /////////////////////
+// ///////////////////////// COMPUTER CHOICE ////////////////////////
+  function getComputerChoice(max) {
+    return Math.floor(Math.random() * max);
+}
+let ComputerChoice = getComputerChoice(3) 
 
-    function getHumanChoice(HumanChoice){
-    let Choice = prompt("What is your choice?\n Rock\n Paper\n Scissors\n")
-    }
-    
-    let H_Choice = getComputerChoice()
-        if (H_Choice === "Rock") {
-            console.log("Human Choice: ", H_Choice);
-        } else if (H_Choice === "Paper") {
-            console.log("Human Choice: ", H_Choice);
-        } else if (H_Choice === "Scissors") {
-            console.log("Human Choice: ", H_Choice);
-        }
-    
-    
-    // console.log(toString(H_Choice))
-    
+if (ComputerChoice === 0){
+  console.log("Computer Choice: Rock")
+} else if (ComputerChoice === 1) {
+  console.log("Computer Choice: Paper")
+} else if (ComputerChoice === 2) {
+  console.log("Computer Choice: Scissors")
+}
 
-    /////////////// Computers Choice //////////////////
-    function getComputerChoice(max){
-        return Math.floor(Math.random() * max);  
-    }
-    
-    let ComputerChoice = (getComputerChoice(3))
-    if (ComputerChoice === 0) {
-        console.log("Computer Choice: Rock");
-    } else if (ComputerChoice === 1) {
-        console.log("Computer Choice: Paper");
-    } else if (ComputerChoice === 2) {
-        console.log("Computer Choice: Scissors");
-    }
-
-    /////////////// Score Card /////////////////////
-    humanScore = 0
-    computerScore = 0
-
-    0 > "Paper"
-    2 > "Paper"
-    0 > "Scissors"
-    /////////////// Play Round Code /////////////////////
 
 
   </script>
@@ -58,10 +31,3 @@
 </html>
 
 
-    <!-- function getComputerChoice(max){
-        return Math.floor(Math.random() * max)
-        if(getComputerChoice === 0){
-            console.log("Rock")
-        }
-    }
-     console.log(getComputerChoice(1)) -->
