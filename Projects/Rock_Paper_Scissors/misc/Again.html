@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Again</title>
+</head>
+<body>
+
+  <script>
+
+function playRound(){
+
+  let computerChoice = (Math.floor(Math.random() * 3));
+  if (computerChoice === 0){
+    console.log("Computer Choice is Rock")
+  } else if (computerChoice === 1) {
+    console.log("Computer Choice is Paper")
+  } else if (computerChoice === 2) {
+    console.log("Computer Choice is Scissors")
+  }
+  
+  let humanChoice = Number(prompt("What is your choice?\n 0 = Rock\n 1 = Paper\n 2 = Scissors\n"))
+  if (humanChoice === 0) {
+    console.log("Human Choice is Rock")
+  } else if (humanChoice === 1) {
+    console.log("Human Choice is Paper")
+  } else if (humanChoice === 2) {
+    console.log("Human Choice is Scissors")
+  }
+
+  humanScore = 0
+  
+
+
+  for (let computerScore = 0;computerChoice > humanChoice; computerScore++) {
+    console.log("Computer wins, the score is", computerScore)
+    return
+  }
+
+
+
+
+
+
+  if(humanChoice === computerChoice){
+    console.log("They are equal")
+  } else {
+    console.log("They are not equal")
+  }
+}
+
+playRound()
+  </script>
+
+</body>
+</html>
+
+
+<!--
+}  -->
