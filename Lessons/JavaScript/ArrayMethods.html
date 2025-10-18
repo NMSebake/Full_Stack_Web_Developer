@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ArrayMethods</title>
+</head>
+<body>
+  <script>
+///////////////////// Translate border-left-width to borderLeftWidth  ///////////////////////////
+function camelize(str){
+        splitStr = str.split("-");
+        UcaseStr = splitStr.map(Upper(splitStr))
+        
+        return UcaseStr
+
+        function Upper(str){
+            return str.toUpperCase();
+        }
+    }
+
+
+    console.log(camelize("background-color"))
+
+  </script>
+</body>
+</html>
